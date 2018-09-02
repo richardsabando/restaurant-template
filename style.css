@@ -1,0 +1,90 @@
+body {
+    background-color: #fafafa;
+    margin: 0 auto;
+}
+
+section {
+    height: 100%;
+    padding: 130px 0;
+}
+
+.section-gray {
+    background-image: url('/img/skills.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.section-menu {
+    background-image: url('/img/menu.jpg');
+    height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-item {
+    font-size: 1.3em;
+}
+
+.bg-navbar {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #efefef;
+}
+
+.contact {
+    border: none;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #fff;
+}
+
+.jumbotron {
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 100vh;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.hero-text {
+    margin-top: 235px;
+}
+
+.intro {
+    text-transform: uppercase;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.feature-row {
+    margin-top: 150px;
+}
+
+.padding-small {
+    padding: 10px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 50px;
+}
+
+.social-item {
+    margin-left: 5px;
+}
+
+@media(min-width: 992px) {
+    .contact {
+        border: 2px solid #fff;
+    }
+}
