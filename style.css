@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fafafa;
     margin: 0 auto;
@@ -81,6 +85,22 @@ section {
 
 .social-item {
     margin-left: 5px;
+    transition: all .7s ease-in-out;
+    color: #800000;
+}
+
+
+.social-item:hover {
+    color: #660202;  
+    text-decoration: none;
+}
+
+.social-item svg{
+    transition: all .5s ease-in-out;
+}
+
+.social-item:hover svg{
+    transform: scale(1.2);
 }
 
 @media(min-width: 992px) {
